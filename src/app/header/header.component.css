@@ -1,0 +1,79 @@
+.header-container{
+    height: 10vh;
+    width:100%;
+    background: #1b262c;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    margin-left: 50px;
+    padding: 2vh;
+}
+
+.logo-container a{
+    font-size: 30px;
+    font-family: 'Girassol', cursive;
+    color: #eaeaea;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-container:hover{
+    transition: .5s ease;
+    transform: translateY(-7.5%);
+}
+
+.hidden{
+    font-size: 30px;
+    font-family: 'Girassol', cursive;
+    color: #eaeaea;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hidden-child{
+    font-size: 25px;
+    font-family: 'Girassol', cursive;
+    color: #eaeaea;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.navigation-list{
+    margin-right: 50px;
+}
+
+.navigation-list ul{
+    display: flex;
+}
+
+.navigation-list ul li{
+    list-style: none;
+    padding: 3.5vh;
+}
+.navigation-list ul li:hover{
+    transition: .5s ease;
+    transform: translateY(-10%);
+}
+.navigation-list ul li a{
+    color: #eaeaea;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+    
+    .logo-container{
+        margin-left: 20px;
+        padding: 1.5vh;
+    }
+    .hidden{
+        display: none;
+    }
+    .navigation-list{
+        margin-right: 15px;
+    }
+    .navigation-list ul li{
+        list-style: none;
+        padding: 2.5vh;
+    }
+}
